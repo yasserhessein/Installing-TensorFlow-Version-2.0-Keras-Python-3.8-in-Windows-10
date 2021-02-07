@@ -1,0 +1,125 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "nearby-essex",
+   "metadata": {},
+   "source": [
+    "## 1-How to install tensorflow and krease?\n",
+    "\n",
+    "\n",
+    "from this like \n",
+    "\n",
+    "[Miniconda](https://docs.conda.io/en/latest/miniconda.html)\n",
+    "\n",
+    "\n",
+    "\n",
+    "Python version Python 3.8 \n",
+    "\n",
+    "\n",
+    "## 2- Install miniconda \n",
+    "\n",
+    "\n",
+    "## 3- Save this file .txt \n",
+    "\n",
+    "\n",
+    "        \n",
+    "        \n",
+    "       "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "presidential-vector",
+   "metadata": {},
+   "source": [
+    "name: tensorflow\n",
+    " \n",
+    "dependencies:\n",
+    "    - python=3.8\n",
+    "    - pip>=19.0\n",
+    "    - jupyter\n",
+    "    - scikit-learn\n",
+    "    - scipy\n",
+    "    - pandas\n",
+    "    - pandas-datareader\n",
+    "    - matplotlib\n",
+    "    - pillow\n",
+    "    - tqdm\n",
+    "    - requests\n",
+    "    - h5py\n",
+    "    - pyyaml\n",
+    "    - flask\n",
+    "    - boto3\n",
+    "    - pip:\n",
+    "        - tensorflow==2.4\n",
+    "        - bayesian-optimization\n",
+    "        - gym\n",
+    "        - kaggle"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "interested-butler",
+   "metadata": {},
+   "source": [
+    "## 4- Convert this file .txt to .yml\n",
+    "\n",
+    "open the cmd then write\n",
+    "\n",
+    "C:\\\\Users\\ren tenserflow.yml.txt tensorflow.yml\n",
+    "\n",
+    "\n",
+    "## 5- Cond install jupyter \n",
+    "\n",
+    "\n",
+    "\n",
+    "## 6- Write in cmd \n",
+    "\n",
+    "dir *yml\n",
+    "\n",
+    "## 7- Write cmd \n",
+    "conda env create -v -f tensorflow.yml\n",
+    "\n",
+    "## 8- Test Tensorflow \n",
+    "open the cmd and write the line \n",
+    "\n",
+    "conda activate tensorflow \n",
+    "\n",
+    "## 9- Install kernel for jupyter\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "tested-queens",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import tersorflow as tf\n",
+    "print (tf.__version__)"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "python=3.8 (tensorflow)",
+   "language": "python",
+   "name": "tensorflow"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.5"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
